@@ -1,4 +1,4 @@
-function Player(turn) {
+export function Player(turn) {
   this.playerName = "";
   this.totalScore = 0;
   this.roundScore = [];

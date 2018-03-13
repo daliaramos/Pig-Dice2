@@ -1,4 +1,4 @@
-import { Player } from './pig';
+import { Player } from './pig.js';
 import './styles.css';
 import $ from 'jquery';
 import 'bootstrap';
