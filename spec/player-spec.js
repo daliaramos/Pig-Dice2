@@ -3,13 +3,13 @@ var Player = require('./../src/pig.js').playerModule;
 
 describe('Player', function(){
 
-  it('should get player name and scores', function(){
+  it('recognizes player object', function(){
 
-    var player = new Player("sam", 16)
-    var name = "sam";
-    var totalScore = 16;
+    var player = new Player("", 0)
 
-    expect(player.playerName).toEqual("sam")
-    expect(player.totalScore).toEqual(16)
+    expect(player.playerName).toEqual("")
+    expect(player.totalScore).toEqual(0)
+    expect(player.roundScore).toEqual([])
+    expect(player.turn).toEqual(turn)
   });
 });

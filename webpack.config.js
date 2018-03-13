@@ -28,10 +28,11 @@ module.exports = {
         test: /.js$/,
         exclude: [
         /node_modules/,
-            /spec/
+        /spec/
           ],
         loader: 'eslint-loader'
-      },
+      }
+
       {
         test: /.css$/,
         use: [
