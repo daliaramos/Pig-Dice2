@@ -1,5 +1,5 @@
-// var Player = require('./../src/pig.js').playerModule;
-import {Player} from './../src/pig.js';
+var Player = require('./../src/pig.js').playerModule;
+// import {Player} from './../src/pig.js';
 
 describe('Player', function(){
 
