@@ -1,11 +1,10 @@
-export function Player(turn) {
+function Player(turn) {
   this.playerName = "";
   this.totalScore = 0;
   this.roundScore = [];
   this.turn = turn;
 }
 
-// exports.playerModule = Player;
 
 Player.prototype.rollDice = function() {
   var diceValue = Math.floor((Math.random() * 6) + 1);
@@ -32,3 +31,5 @@ Player.prototype.win = function() {
     return this.totalScore;
   }
 };
+
+exports.playerModule = Player;

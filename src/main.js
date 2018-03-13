@@ -19,7 +19,6 @@ $(document).ready(function() {
     $("form#name-input").hide();
     $("#game-interface").fadeIn();
 
-
 // player one buttons
 
   $("button#roll1").click(function() {
@@ -36,7 +35,6 @@ $(document).ready(function() {
   });
 
 // player two buttons
-
   $("button#roll2").click(function() {
     // var rollTwo =
     player2.rollDice();

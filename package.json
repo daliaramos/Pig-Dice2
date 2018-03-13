@@ -5,7 +5,6 @@
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack --mode development",
-    "test": "karma start karma.conf.js",
     "test": "jasmine",
     "start": "npm run build; webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js"

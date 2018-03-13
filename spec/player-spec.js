@@ -1,11 +1,11 @@
-// var Player = require('./../src/pig.js').playerModule;
-import {player} from ('./../src/pig.js');
+var Player = require('./../src/pig.js').playerModule;
+// import {Player} from './../src/pig.js';
 
 describe('Player', function(){
 
   it('should get player name and scores', function(){
 
-    var player = new player("sam", 16)
+    var player = new Player("sam", 16)
     var name = "sam";
     var totalScore = 16;
 
