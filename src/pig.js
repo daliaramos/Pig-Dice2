@@ -5,6 +5,8 @@ export function Player(turn) {
   this.turn = turn;
 }
 
+// exports.playerModule = Player;
+
 Player.prototype.rollDice = function() {
   var diceValue = Math.floor((Math.random() * 6) + 1);
   if (diceValue === 1) {

@@ -4,9 +4,10 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --open",
+    "build": "webpack --mode development",
+    "test": "karma start karma.conf.js",
+    "test": "jasmine",
+    "start": "npm run build; webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js"
   },
   "keywords": [],
